@@ -16,6 +16,8 @@
 		DA96E4DB262C5A8500A85730 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96E4DA262C5A8500A85730 /* BadgeSymbol.swift */; };
 		DA96E4DE262C5AF600A85730 /* RotateBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96E4DD262C5AF600A85730 /* RotateBadgeSymbol.swift */; };
 		DA96E4E1262C5B4C00A85730 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96E4E0262C5B4C00A85730 /* Badge.swift */; };
+		DA96E4E4262C5FEB00A85730 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA96E4E3262C5FEB00A85730 /* hikeData.json */; };
+		DA96E4E7262C601A00A85730 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96E4E6262C601A00A85730 /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DA96E4DA262C5A8500A85730 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		DA96E4DD262C5AF600A85730 /* RotateBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateBadgeSymbol.swift; sourceTree = "<group>"; };
 		DA96E4E0262C5B4C00A85730 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		DA96E4E3262C5FEB00A85730 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		DA96E4E6262C601A00A85730 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		DA96E4C3262C542A00A85730 /* badgeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DA96E4E3262C5FEB00A85730 /* hikeData.json */,
 				DA96E4C4262C542A00A85730 /* badgeDemoApp.swift */,
 				DA96E4C6262C542A00A85730 /* ContentView.swift */,
 				DA96E4C8262C542B00A85730 /* Assets.xcassets */,
@@ -72,6 +77,7 @@
 				DA96E4DA262C5A8500A85730 /* BadgeSymbol.swift */,
 				DA96E4DD262C5AF600A85730 /* RotateBadgeSymbol.swift */,
 				DA96E4E0262C5B4C00A85730 /* Badge.swift */,
+				DA96E4E6262C601A00A85730 /* Hike.swift */,
 			);
 			path = badgeDemo;
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA96E4CC262C542B00A85730 /* Preview Assets.xcassets in Resources */,
+				DA96E4E4262C5FEB00A85730 /* hikeData.json in Resources */,
 				DA96E4C9262C542B00A85730 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +166,7 @@
 				DA96E4DE262C5AF600A85730 /* RotateBadgeSymbol.swift in Sources */,
 				DA96E4C5262C542A00A85730 /* badgeDemoApp.swift in Sources */,
 				DA96E4DB262C5A8500A85730 /* BadgeSymbol.swift in Sources */,
+				DA96E4E7262C601A00A85730 /* Hike.swift in Sources */,
 				DA96E4D8262C559600A85730 /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
